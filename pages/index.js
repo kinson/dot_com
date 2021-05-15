@@ -39,8 +39,8 @@ const BigNameStyles = styled.p`
 const LinksBoxStyles = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
 `;
 
 const LinkStyles = styled.a`
@@ -49,6 +49,7 @@ const LinkStyles = styled.a`
   margin: 0 0.55rem;
   color: #0069d9;
   letter-spacing: 1px;
+  margin-bottom: 1rem;
 
   :hover {
     text-decoration: underline;
@@ -110,6 +111,9 @@ export default function Home() {
           <LinkStyles href="https://tunes.samwhunter.com/">Tunes</LinkStyles>
           <LinkStyles href="https://bigbeeftracker.com">
             Big Beef Tracker
+          </LinkStyles>
+          <LinkStyles href="https://cosnowalerts.com">
+            CO Snow Alerts
           </LinkStyles>
         </LinksBoxStyles>
       </MiddleNameStyles>
