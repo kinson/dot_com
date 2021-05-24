@@ -107,7 +107,7 @@ export default function Home() {
         </LinksBoxStyles>
         <Subtitle>What I'm Working On:</Subtitle>
         <LinksBoxStyles>
-          <LinkStyles href="https:/goexponent.com/">Exponent</LinkStyles>
+          <LinkStyles href="https://goexponent.com/">Exponent</LinkStyles>
           <LinkStyles href="https://tunes.samwhunter.com/">Tunes</LinkStyles>
           <LinkStyles href="https://bigbeeftracker.com">
             Big Beef Tracker
