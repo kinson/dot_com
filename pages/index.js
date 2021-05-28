@@ -103,7 +103,7 @@ export default function Home() {
           <LinkStyles href="https://www.linkedin.com/in/samwhunter/">
             LinkedIn
           </LinkStyles>
-          <LinkStyles href="https://twitter.com/_huntersw">Twitter</LinkStyles>
+          <LinkStyles href="https://twitter.com/_kinson_">Twitter</LinkStyles>
         </LinksBoxStyles>
         <Subtitle>What I'm Working On:</Subtitle>
         <LinksBoxStyles>
