@@ -87,6 +87,11 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Squada+One&family=Lato:wght@300&display=swap"
           rel="stylesheet"
         />
+        <script
+          defer
+          data-domain="samwhunter.com"
+          src="https://plausible.io/js/plausible.js"
+        />
       </Head>
       <MastGroupStyles>
         <MastBarStyles color="#951520" />
