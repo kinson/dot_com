@@ -41,6 +41,7 @@ const LinksBoxStyles = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 25rem;
 `;
 
 const LinkStyles = styled.a`
@@ -75,6 +76,11 @@ const Subtitle = styled.p`
   color: #222;
   letter-spacing: 1px;
   margin: 0.75rem 0;
+
+  a {
+    color: rgb(77, 9, 156);
+    text-decoration: underline;
+  }
 `;
 
 export default function Home() {
@@ -108,17 +114,24 @@ export default function Home() {
           <LinkStyles href="https://www.linkedin.com/in/samwhunter/">
             LinkedIn
           </LinkStyles>
-          <LinkStyles href="https://twitter.com/_kinson_">Twitter</LinkStyles>
         </LinksBoxStyles>
         <Subtitle>What I'm Working On:</Subtitle>
         <LinksBoxStyles>
-          <LinkStyles href="https://goexponent.com/">Exponent</LinkStyles>
+          <LinkStyles href="https://elixirschool.com">Elixir School</LinkStyles>
           <LinkStyles href="https://tunes.samwhunter.com/">Tunes</LinkStyles>
+        </LinksBoxStyles>
+        <Subtitle>
+          <a href="https://twitter.com/NoDunksInc">No Dunks</a> Fan Sites:
+        </Subtitle>
+        <LinksBoxStyles>
           <LinkStyles href="https://bigbeeftracker.com">
             Big Beef Tracker
           </LinkStyles>
-          <LinkStyles href="https://cosnowalerts.com">
-            CO Snow Alerts
+          <LinkStyles href="https://nodunkspickem.com">
+            No Dunks Pick 'Em
+          </LinkStyles>
+          <LinkStyles href="https://classicclipsinc.com">
+            Classic Clips Inc
           </LinkStyles>
         </LinksBoxStyles>
       </MiddleNameStyles>
